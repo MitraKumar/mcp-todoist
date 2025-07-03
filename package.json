@@ -1,0 +1,18 @@
+{
+  "name": "mcp-todoist",
+  "version": "1.0.0",
+  "description": "MCP server that integrates with Todoist API.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.44.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.3"
+  }
+}
