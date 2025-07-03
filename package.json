@@ -4,8 +4,12 @@
   "description": "MCP server that integrates with Todoist API.",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "mcp-todoist": "./dist/main.cjs"
+  },
   "scripts": {
-    "build": "rollup -c --watch",
+    "build": "rollup -c",
+    "build-watch": "rollup -c --watch",
     "start": "npx @modelcontextprotocol/inscpector node dist/main.cjs"
   },
   "author": "",
