@@ -4,7 +4,7 @@ export default {
   input: 'src/index.ts', // Your entry file
   output: [
     {
-      file: 'dist/main.js',
+      file: 'dist/main.cjs',
       format: 'cjs',
       sourcemap: true
     },

@@ -5,14 +5,20 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup -c",
-    "start": "node ./dist/main.js"
+    "build": "rollup -c --watch",
+    "start": "npx @modelcontextprotocol/inscpector node dist/main.cjs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^24.0.10",
     "rollup": "^4.44.1",
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^5.0.2",
+    "@modelcontextprotocol/sdk": "^1.14.0",
+    "zod": "^3.25.71"
   }
 }
