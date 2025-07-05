@@ -55,7 +55,7 @@ This server provides ***get-tasks*** tool to search all the tasks from all your 
 - [x] Publish npm package
 - [x] Add github action for npm registry publish automation
 - [x] Add Server to claude
-- [ ] Wrapper for getting projects
-- [ ] Wrapper for adding tasks to predefiend projects
-- [ ] Wrapper for adding tasks to any project
+- [x] Wrapper for getting projects
+- [x] Wrapper for adding tasks to predefiend projects
+- [x] Wrapper for adding tasks to any project
 - [ ] Wrapper for marking a task complete
